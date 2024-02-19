@@ -51,7 +51,7 @@ class FeedActivity : AppCompatActivity() {
 
     private fun getData(){
 
-        db.collection("Posts").orderBy("date", Query.Direction.DESCENDI).addSnapshotListener{
+        db.collection("Posts").orderBy("date", Query.Direction.DESCENDING).addSnapshotListener{
             value, error ->
 
             if(error != null){
