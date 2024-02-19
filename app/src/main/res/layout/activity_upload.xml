@@ -5,13 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="selectImage"
-    tools:context=".UploadActivity">
+    tools:context=".view.UploadActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="197dp"
-        android:layout_height="182dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="392dp"
         android:onClick="selectImage"
         android:src="@drawable/select_img"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,24 +19,25 @@
 
     <EditText
         android:id="@+id/commentText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:ems="10"
         android:hint="Enter Comment"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/uploadBtn"
         android:layout_width="216dp"
-        android:layout_height="39dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:onClick="uploadClicked"
-        android:text="UPLOAD"
+        android:text="POST"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

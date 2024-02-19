@@ -1,4 +1,4 @@
-package com.aytachuseynli.instagramclone
+package com.aytachuseynli.instagramclone.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.ListAdapter
+import com.aytachuseynli.instagramclone.R
 import com.aytachuseynli.instagramclone.adapter.FeedRecyclerAdapter
 import com.aytachuseynli.instagramclone.databinding.ActivityFeedBinding
 import com.aytachuseynli.instagramclone.model.Post

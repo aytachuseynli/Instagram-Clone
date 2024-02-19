@@ -1,4 +1,4 @@
-package com.aytachuseynli.instagramclone
+package com.aytachuseynli.instagramclone.view
 
 import android.content.Intent
 import android.content.pm.PackageManager
